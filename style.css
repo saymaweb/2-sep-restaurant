@@ -1,0 +1,895 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+    padding:10px ;
+}
+a{
+    text-decoration:none ;
+    color:black;
+    font-size:15px;      
+        
+}
+.red_are{
+    display: flex;
+    margin-left: 10px;
+}
+.logo{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    padding-left:60px ;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(25, 212, 212);
+    position: relative;
+    height:80px ;
+    width:100% ;
+    color: azure;
+    align-items: center;
+
+}
+.red img{
+    width: 85px; 
+    height: 85px;
+    border-radius:50% ;
+ }
+
+.red{
+    background:url(./steak_img/burger-with-melted-cheese.webp)no-repeat ;
+    background-size: cover;
+    width:100% ;
+    height:1000px ;
+}
+.box{
+    display: flex;
+}
+.home{
+    position:relative;
+}
+
+.home-dd{
+    position: absolute;
+    height:300px;
+    width:200px; 
+    font-size:15px ;
+    top:15px;
+    background-color: rgb(155, 157, 139);
+    display:none;
+}
+.home:hover .home-dd{
+    display:block; 
+}
+
+.MENU{
+    position: relative;
+}
+.MENU_dd{
+    position: absolute;
+    height:300px;
+    width:200px; 
+    font-size:15px ;
+    top:15px;
+    background-color: rgba(234, 235, 222, 0.563);
+    display:none ;
+}
+.MENU:hover .MENU_dd{
+    display:block;
+}
+.RESERVATION{
+    position: relative;
+}
+.RESERVATION_dd{
+    position: absolute;
+    height:200px;
+    width:100px; 
+    font-size:15px ;
+    top:15px;
+    background-color: rgba(234, 235, 222, 0.563);
+    display:none ;
+}
+.RESERVATION:hover .RESERVATION_dd{
+    display: block;
+}
+.PAGE{
+    position: relative;
+}
+.PAGE_dd{
+    position: absolute;
+    height:300px;
+    width:200px; 
+    font-size:15px ;
+    top:15px;
+    background-color: rgba(234, 235, 222, 0.563);
+    display:none ;
+}
+.PAGE:hover .PAGE_dd{
+    display: block;
+}
+.RECIPE{
+    position: relative;
+}
+.RECIPE_dd{
+    position: absolute;
+    height:300px;
+    width:200px; 
+    font-size:15px ;
+    top:15px;
+    background-color: rgba(234, 235, 222, 0.563);
+    display:none ;
+}
+.RECIPE:hover .RECIPE_dd{
+    display: block;
+}
+.BLOG{
+    position: relative;
+}
+.BLOG_dd{
+    position: absolute;
+    height:300px;
+    width:200px; 
+    font-size:15px ;
+    top:15px;
+    background-color: rgba(234, 235, 222, 0.563);
+    display:none ;
+}
+.BLOG:hover .BLOG_dd{
+    display: block;
+}
+.SHOP{
+    position: relative;
+}
+.SHOP_dd{
+    position: absolute;
+    height:300px;
+    width:200px; 
+    font-size:15px ;
+    top:15px;
+    background-color: rgba(234, 235, 222, 0.563);
+    display:none ;
+}
+.SHOP:hover .SHOP_dd{
+    display: block;
+}
+
+li:hover a{
+    color:rgb(73, 206, 224) ;
+}
+.top-ber{
+    display: flex;
+    justify-content: space-between;
+    padding:20px ;
+    background-color: rgb(226, 235, 243);
+    color: blueviolet;
+}
+.info{
+    display: flex;
+    gap:20px;
+    font-size:20px ;
+}
+
+.heroarea img{
+    height:450px;
+    width: 450px;
+    padding-left:500px ;
+    position: relative;
+}
+
+.heroarea h1{
+    font-size:140px ;
+    text-align: center;
+    flex-direction: column;
+    color: aliceblue;
+    justify-content: center;
+}
+.heroarea p{
+    font-size:40px ;
+    text-align: center;
+    color: azure;
+}
+
+.History{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    color: black;
+    
+
+    
+}
+.History h3{
+    color: black;
+    
+}
+.History h1{
+    font-size: 40px;
+    width: 300px;
+    padding-left: 50px;
+}
+.History h2{
+    font-size: 20px;
+    border-width: 2px;
+    padding:10px;
+    
+}
+.history_detials{
+    justify-content: center;
+    align-items: center;
+    color:black;
+    margin-left:5px ;
+    
+}
+.history_detials{
+    display: flex;
+}
+
+.history h3{
+    font-size:30px;
+    width:5px ;
+    padding:15px ;
+    margin-left:5px ;
+}
+.history_detials_3 p{
+    text-align: justify;
+    width:289px ;
+    padding-right: 20px;
+}
+.border{
+    width: 200px;
+    border-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:5px ;
+    margin-bottom:10px ;
+    
+}
+.item-manu{
+    display: flex;
+} 
+
+.item_photo{
+    padding-top: 30px;
+    position: relative;
+    min-height: 1px;
+    padding-right:100px;
+    margin-left: 30px;
+    
+}
+
+.img1{
+height: 200px;
+    width: 340px;
+    padding: 5px;
+    display: flex;
+    
+}
+.img2{
+height: 110px;
+width: 170px;
+
+
+} 
+.img3{
+height: 110px;
+width: 170px;
+
+} 
+
+
+.photo div img{
+    margin:0 auto ;
+    width:600px ;
+    margin-top:40px ;
+}
+
+.your-class div img{
+    margin: 0 auto;
+    height: 400px;
+    margin-top: 40px;
+    width: 600px;
+    position: relative;
+    height:500px ;
+    width: 900px;
+    margin: 0 auto;
+    
+}
+.overlay{
+    color: rgb(0, 0, 0);
+    height: 600px;
+    width: 100%;
+    
+}
+.slick-dots li button::before {
+    font-family: slick;
+    font-size: 10px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 25px;
+    height: 25px;
+    content: "•";
+    text-align: center;
+    opacity: 0.25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+}
+
+.slick-dots li.slick-active button::before {
+    opacity: 1;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+/* arraw */
+.slick-prev::before,
+.slick-next::before {
+    color: rgba(3, 3, 3, 0.897);
+    font-size: 2.5rem;
+}
+
+.slick-prev,
+.slick-next {
+    width: 2.5rem;
+    height: 2.5rem;
+    z-index: 2;
+}
+
+.slick-list {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.slick-prev {
+    left: -20px;
+}
+
+.slick-next {
+    right:-20px;
+}
+
+.slider_section{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    
+}
+.slider_titel{
+    align-items: center;
+    justify-content: center;
+}
+.slider_titel h4{
+    font-size:50px ;
+    text-align: center;
+    flex-direction: column;
+   
+
+}
+.slider_titel p{
+    font-size:30px ;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+.your-class{
+    margin-left: 300px;
+    gap:20px;
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+.your-class img{
+    height:200px;
+    width: 2000px;
+    position: relative;
+}
+.your-class p{
+    font-size: 20px;
+    text-align: center;
+}
+.grilled-steak-story{
+    display: flex;
+    gap: 20px;
+    margin-left: 30px;
+    height:300px ;
+    width: 550px;
+    flex-direction: column;
+    margin:0 auto;  
+
+}
+.grilled-steak-story h1{
+    font-size:30px ;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.special_btn{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.one-btn {
+background-color: rgb(162, 236, 243);
+border-radius: 0%;
+padding-left:20px;
+padding:15px;
+margin: 0 auto;
+margin-left:32%;
+width: 200px;
+
+}
+.one-btn:hover{
+background-color: blue;
+}
+
+/* reservation form  */
+.booking{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 250px;
+
+}
+.booking h5{
+    font-size:50px;
+    padding-top:50px;
+    
+
+}
+.booking p{
+    font-size: 20px;
+    padding-top: 10px;
+    
+    
+}
+
+.booking_one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+    width: 900px;
+    padding: 80px;
+    box-shadow: 0px 0px 5px #ccc;
+    margin-top: 33px;
+    border-radius: 10px;
+}
+.fa-pencil-square-o{
+    margin-left: -20px;
+    margin-top: 25px;
+    
+}
+.fa-envelope{
+    margin-left: -20px;
+    margin-top: 25px;
+
+
+}
+.input_icon{
+    display: flex;
+   
+}
+
+.fa-phone{
+ margin-left: -20px;
+ margin-top: 25px;
+}
+
+.fa-calendar{
+    margin-left: -20px;
+    margin-top: 25px;
+}
+.fa-clock-o{
+    margin-left: -20px;
+    margin-top: 25px;
+}
+.fa-user{
+    margin-left: -20px;
+    margin-top: 25px;
+}
+
+.form_wrapper{
+    align-items: center;
+    display: flex;
+    flex-direction: column;  
+}
+.booking_form{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-left:-20px ;
+}
+.box{
+    width: 80%;
+    padding: 30px;
+    height: 3px;
+    border: none;
+    background: #f1f1f1;
+
+}
+.btn_reserv{ 
+    background-color: #81ef88;
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    margin-left: 360px;
+    width: 250px;
+    margin-top: 50px;
+
+    
+    
+    }
+    .btn_reserv:hover{
+    background-color:  blue;
+    }
+.form_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.589);
+    padding-bottom: 30px;
+    
+}
+    /* features  */
+    .features_heading{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin: 40px;
+        font-size: 40px;
+        color: white;
+        align-items: center;
+        padding-top: 40px;
+        
+    }
+    .main_features{
+    
+        background-color: #98eb12;
+        border: 3px solid rgb(104, 223, 250);
+        height: 450px;
+        overflow: hidden;
+        width: 300px;
+    }
+.features_title{
+    padding-left: 15px;
+}
+.main_features h1{
+    font-size: 30px;
+}
+.main_features p{
+    font-size: 15px;
+    width:250px;
+}
+    .main_features:hover .f_img{
+        transform: scale(1.2);
+        
+    }
+    .features{
+        background-image: url(./steak_img/depositphotos_11828655-stock-photo-grilled-beef-steak.jpg);
+        background-size: cover;
+        height: 800px;
+        background-attachment: fixed;
+    
+    
+    }
+    .features_wrapper{
+        display: flex;
+        height: 200px;
+        width: 1200px;
+        gap: 20px;
+        padding-left: 150px;
+    }
+    .f_img{
+        height: 200px;
+        width: 300px;
+        
+    }
+    .f_hr {
+        width:100px;
+        border-color: blue;
+        margin: 10px;
+    }
+
+
+    /* menucar started  */
+    .menucard_heading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 30px;
+        font-size: 50px;
+        margin-top:50px;
+        font-family: "Playwrite DE Grund", cursive;
+    }
+    .menucard p{
+        font-size: 25px;
+        color: rgba(0, 0, 0, 0.521);
+        
+    }
+
+    .food  /* ul name food  */{ 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;  
+        
+    }
+    .food a:hover{
+        color: #0a0a0a;
+        font-weight: bold;
+        border-bottom: 2px solid #04AA6D;
+        cursor: pointer;
+    }
+
+    .food a{
+        list-style: none;
+        color: rgba(0, 0, 0, 0.651);
+        align-items: center;
+        justify-content:center;
+        font-size: 20px;
+    
+    }
+    .hr_dot{
+        border: 1px dashed rgb(86, 86, 15);
+        width: 200px;
+        
+    }
+    .item_name{
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+        padding-inline: 20px;
+    
+    }
+    .menu_container{
+        display: flex;
+        margin-left: 200px;
+    }
+    .menu_container p{
+        font-size: 20px;
+        padding-left:20px;
+        
+
+    }
+    .menu_button{
+        background-color: #04AA6D;
+        color: rgb(255, 255, 255);
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        margin-left: 600px;
+        width: 300px;
+        margin-top: 40px;
+        height: 50px;
+    }
+.menucard_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    font-size: 20PX;
+    padding-bottom: 20px;
+    color: #0b0b0b93;
+}
+
+/* 2nd slide/quate started */
+
+
+.trusted_quote{
+    background-image: url(./steak_img/Ice-cream-sundae-hero-11.jpg);
+    height: 700px;
+    width:100%;
+
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 60px;
+    background-repeat: no-repeat;
+}
+
+
+.quote{
+    
+    padding-left:200px;
+    
+}
+
+.title_2nd{
+    height:300px;
+    width:900px;
+padding-left:350px;
+padding-top:40px;
+    
+}
+.trusted_quote .quote_author span {
+    display: inline;
+    font-weight:400;
+    font-size: 15px;
+    color:#fff;
+}
+.trusted_quote .quote_body {
+    color:black;
+    margin: 20px 0;
+    font-size: 40px;
+    width: 480px;
+    
+    
+}
+.trusted_quote .quote_author{
+    color: #fff;
+    font-size: 20px;
+}
+/* .subscribe section  */
+.subscribe{
+    display: flex;
+    background-color: rgba(251, 190, 8, 0.3);
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    height: 100px;
+    width: 100%;
+    
+}
+.subscribe h1{
+    font-size: 30px;
+color: #c02c0f;
+}
+.s_box{
+padding: 15px;
+border-color: rgb(210, 36, 30);
+
+
+}
+.sub_btn{
+background-color: rgb(240, 47, 12);
+border-radius: 0%;
+width: 45px;
+height: 50px;
+
+}
+button:hover{
+    color: #000;
+}
+/* end */
+
+.footer{
+    background-image: url(./thumb9\ \(1\).png);
+    height: 400px;
+    background-repeat: no-repeat;
+width: 100%;
+    background-size: cover;
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+.footer-blog-text{
+display: flex;
+    color: aliceblue;
+}
+.footer_text{
+    font-size: 20px;
+    width: 400px;
+    color: #f1f1f1;
+    padding-top: 60px;
+    
+
+
+}
+.footer h1{
+    color: #fa2c03;
+}
+.footer p{
+    font-size:20px ;
+    font-weight: 200;
+}
+.footer-blog-img{
+    display: flex;
+    flex-direction: column;
+}
+.f-img{
+    display: flex;
+    gap: 5px;
+    padding: 10PX;
+
+}
+.footer_location{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.icon{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+.icon .fa-phone{
+    padding-left: 50px;
+    
+}
+.icon .fa-envelope{
+    padding-left: 50px;
+}
+        
+.fa-bars .main{
+    display: none;
+}
+
+
+/* FOR MOBILE   */
+.mobile_menu{
+    width: 300px;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+    color: black;
+}
+.mobile_menu li{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width: 600px){
+    body {width: 600px;
+    
+    }
+    .main{
+        display: none;
+    }
+
+
+
+}
+
+    .fa-bars{
+        display: inline;
+        color: #f1f1f1;
+        margin-right: 20px;
+        font-size: 40px;
+    }
+    .fa-bars:hover .mobile_menu{
+        display: block;
+    }
+
+
+    @media only screen and (max-width: 768px){
+        body {width: 768px;
+        
+        }
+    
+    
+        .main{
+            display: none;
+        }
+        
+    
+    
+    }     
+        
+    
+    
+    
